@@ -14,4 +14,9 @@ struct AxePickaxeApp: App {
             ContentView()
         }
     }
+    
+    init() {
+        print("应用程序启动了！")
+        loadJsFile()
+    }
 }

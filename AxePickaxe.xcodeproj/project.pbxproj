@@ -14,6 +14,7 @@
 		179529332BA7372F00CA29B4 /* AxePickaxeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179529322BA7372F00CA29B4 /* AxePickaxeTests.swift */; };
 		1795293D2BA7372F00CA29B4 /* AxePickaxeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1795293C2BA7372F00CA29B4 /* AxePickaxeUITests.swift */; };
 		1795293F2BA7372F00CA29B4 /* AxePickaxeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1795293E2BA7372F00CA29B4 /* AxePickaxeUITestsLaunchTests.swift */; };
+		1795294D2BA73AC300CA29B4 /* loadJsCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1795294C2BA73AC300CA29B4 /* loadJsCore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		179529382BA7372F00CA29B4 /* AxePickaxeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AxePickaxeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1795293C2BA7372F00CA29B4 /* AxePickaxeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AxePickaxeUITests.swift; sourceTree = "<group>"; };
 		1795293E2BA7372F00CA29B4 /* AxePickaxeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AxePickaxeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1795294C2BA73AC300CA29B4 /* loadJsCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loadJsCore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 		1795291F2BA7372D00CA29B4 /* AxePickaxe */ = {
 			isa = PBXGroup;
 			children = (
+				1795294B2BA738FA00CA29B4 /* JSCore */,
 				179529202BA7372D00CA29B4 /* AxePickaxeApp.swift */,
 				179529222BA7372D00CA29B4 /* ContentView.swift */,
 				179529242BA7372F00CA29B4 /* Assets.xcassets */,
@@ -127,6 +130,14 @@
 				1795293E2BA7372F00CA29B4 /* AxePickaxeUITestsLaunchTests.swift */,
 			);
 			path = AxePickaxeUITests;
+			sourceTree = "<group>";
+		};
+		1795294B2BA738FA00CA29B4 /* JSCore */ = {
+			isa = PBXGroup;
+			children = (
+				1795294C2BA73AC300CA29B4 /* loadJsCore.swift */,
+			);
+			path = JSCore;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				179529232BA7372D00CA29B4 /* ContentView.swift in Sources */,
+				1795294D2BA73AC300CA29B4 /* loadJsCore.swift in Sources */,
 				179529212BA7372D00CA29B4 /* AxePickaxeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
